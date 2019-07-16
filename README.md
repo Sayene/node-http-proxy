@@ -2,6 +2,9 @@
   <img src="https://raw.github.com/nodejitsu/node-http-proxy/master/doc/logo.png"/>
 </p>
 
+# this fork contains fixes:
+  1. Better handle "The header content contains invalid characters" by adding 'try catch' to web-outgoing.writeHeaders()
+
 # node-http-proxy [![Build Status](https://travis-ci.org/nodejitsu/node-http-proxy.svg?branch=master)](https://travis-ci.org/nodejitsu/node-http-proxy) [![codecov](https://codecov.io/gh/nodejitsu/node-http-proxy/branch/master/graph/badge.svg)](https://codecov.io/gh/nodejitsu/node-http-proxy)
 
 `node-http-proxy` is an HTTP programmable proxying library that supports
